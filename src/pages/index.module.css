@@ -8,6 +8,20 @@
   padding: 0 0.5rem;
 }
 
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  background-color: green;
+}
+
+.pai {
+  width: 15px;
+  height: 20px;
+  background: url('../../assets/pai.png') no-repeat;
+}
+
 .main {
   display: flex;
   flex: 1;
