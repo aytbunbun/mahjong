@@ -11,8 +11,8 @@
 .board {
   display: flex;
   flex-wrap: wrap;
-  width: 960px;
-  height: 960px;
+  width: 1440px;
+  height: 1440px;
   background-color: green;
 }
 
