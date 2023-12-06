@@ -11,15 +11,15 @@
 .board {
   display: flex;
   flex-wrap: wrap;
-  width: 1440px;
-  height: 1440px;
+  width: 640px;
+  height: 640px;
   background-color: green;
 }
 
 .pai {
-  width: 15px;
+  width: 20px;
   height: 20px;
-  background: url('../../assets/pai.png') no-repeat;
+  background: url('../../assets/pai.png');
 }
 
 .main {
