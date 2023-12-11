@@ -4,7 +4,9 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.board}>
-        <div className={styles.pai}> </div>
+        {[...Array(14)].map((_, i) => (
+          <div className={styles.pai} key={i} />
+        ))}
       </div>
     </div>
   );
